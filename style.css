@@ -1,0 +1,77 @@
+/* Common CSS Start*/
+body {
+	margin: 0;
+	padding: 0; 
+	font-family: 'Sen', sans-serif; 
+}
+html {
+	scroll-behavior: smooth; 
+}
+button {
+	background: #FF2E81;
+	text-transform: uppercase;
+	color: #fff; 
+	outline: none;
+	padding: 10px 15px; 
+	border: 0 solid; 
+	border-radius: 5px; 
+	margin-top: 10px; 
+	font-weight: bold;  
+}
+button:hover {
+	font-weight: bold; 
+	background: #000 ; 
+	color: #FFF;  
+}
+
+/* Common CSS End*/
+.container {
+	margin-bottom: 100px;  
+}
+.navbar ul li a {
+	color: #979797; 
+	text-transform: uppercase; 
+}
+.navbar ul li a:hover {
+	color: #FF2E81; 
+} 
+.navbar i {
+	color: #000; 
+	background: #fff; 
+	outline: none; 
+	font-size: 50px!important; 
+}
+.carousel-item h3 {
+	color: #FF2E81;  
+} 
+.carousel-item p {
+	color: #979797; 
+}
+.card {
+	box-shadow: 10px 10px 20px silver; 
+}
+.card img {
+	width: 250px; 
+	height: auto; 
+	padding: 30px; 
+	margin: 0 auto; 
+}
+.inner-catagories {
+	margin-bottom: 50px; 
+	padding: 40px 0; 
+	box-shadow: 5px 5px 10px silver; 
+}
+.inner-catagories h4 {
+	font-size: 30px; 
+	margin-top: 20px;
+}
+.footer p {
+	text-align: center; 
+	font-size: 14px;
+	color: #979797;   
+}  
+#categories .heading {
+	width: 160px; 
+	margin: 0 auto; 
+	border-bottom: 6px solid orange; 
+} 
